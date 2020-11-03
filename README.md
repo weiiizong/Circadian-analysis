@@ -33,7 +33,7 @@ Clinical variables of interest include:
 - fitSinCurve.R and Curve_Drawing_axis.R are external functions required to run the main analysis in Rhythmicity.R 
 - Run all external functions, so that they are in the R environment 
 - Run code as is in Rhythmicity.R to derive fitted parameters
-- Run code as is in Rhythmicity_peakCI.R to derive confidence interval of peak
+- Run code as is in Rhythmicity_peakCI.R to derive confidence interval of peak estimates
 - Run code as is in PhaseShift.R to derive phase concordance plot
 *NOTE: Permutations and Bootstraps were set to 10 to save time and computation space. Permuted and bootstrap files are included in the output/Rhythmicity/null_control and output/Rhythmicity/bootstrap_control respectively to save reviewers time. If files are recreated by the reviewer, output will be slightly different due to the randomness. 
 
